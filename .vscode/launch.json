@@ -2,19 +2,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug",
-      "type": "coreclr",
+      "name": "App",
       "request": "launch",
-      "preLaunchTask": "build",
-      "program": "${workspaceFolder}/bin/Debug/net9.0/PokemonPocket.dll",
-      "args": [],
-      "console": "externalTerminal",
-      "stopAtEntry": false
-    },
-    {
-      "name": "Attach",
       "type": "coreclr",
-      "request": "attach"
+      "program": "dotnet",
+      "args": ["run"],
+      "console": "externalTerminal"
     }
   ]
 }

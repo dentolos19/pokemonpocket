@@ -438,7 +438,6 @@ public static class EnhancedMenu
             AnsiConsole.MarkupLine("[dim]No pokemons found in your pocket.[/]");
             Console.ReadKey();
         }
-
     }
 
     private static void ViewPokemons_SelectPokemon(Action<Pokemon> callback)

@@ -1,4 +1,4 @@
-﻿// Dennise
+// Dennise
 // 231292A
 
 namespace PokemonPocket.Menus;
